@@ -1,0 +1,45 @@
+[{
+    "jobTitle": "Full Stack Developer",
+    "company": "Gregio",
+    "location": "Sousse, Tunisia",
+    "employmentPeriod": "Jan - May 2022",
+    "responsibilities": [
+      "Developed and maintained a reservation web app using React.js, Node.js, and MongoDB",
+      "Optimized code to improve site performance and reduce load time",
+      "Collaborated with UX/UI designers to enhance the user experience"
+    ]
+  },
+  {
+    "jobTitle": "Full Stack Developer",
+    "company": "Advanced Technology",
+    "location": "Monastir, Tunisia",
+    "employmentPeriod": "Jan - Feb 2022",
+    "responsibilities": [
+      "Built a marketing and services platform for a French client using WordPress, PHP, JavaScript, and Bootstrap",
+      "Ensured cross-browser compatibility and mobile responsiveness by testing sites on various devices",
+      "Managed version control using Git"
+    ]
+  },
+  {
+    "jobTitle": "Full Stack Developer",
+    "company": "Dely Project",
+    "location": "Sousse, Tunisia",
+    "employmentPeriod": "Dec 2020 - Feb 2021",
+    "responsibilities": [
+      "Collaborated with a small team to build an exam web app using ES6, Node.js, MongoDB, and React.js",
+      "Worked closely with UX/UI designers to ensure a coherent user experience",
+      "Helped evolve the front-end and back-end stack"
+    ]
+  },
+  {
+    "jobTitle": "Full Stack Developer Intern",
+    "company": "MNAT Mahdia",
+    "location": "Mahdia, Tunisia",
+    "employmentPeriod": "Jan - Feb 2019",
+    "responsibilities": [
+      "Communicated and collaborated with multi-disciplinary teams of engineers daily",
+      "Trained coworkers on using Git and working with it",
+      "Discussed the Agile approach and how it can solve common challenges"
+    ]
+  }
+]
