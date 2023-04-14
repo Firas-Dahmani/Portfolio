@@ -29,7 +29,7 @@ const HeroImage = styled.div`
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  opacity: 35%;
+  opacity: 50%;
 
   @media screen and (min-width: 768px) {
     background-image: url(${backgroundImageTablet});
