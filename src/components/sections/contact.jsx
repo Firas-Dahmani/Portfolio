@@ -24,16 +24,22 @@ const ContactIcon = styled.div`
   margin-top: 32px;
 `;
 
-const StyledIcon = styled.div`
+const StyledIcon = styled.a`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 16px;
+  text-decoration: none;
+  color: inherit;
 
   svg {
     width: 32px;
     height: 32px;
+  }
+
+  svg:hover {
+    opacity: 0.58;
   }
 
   @media (min-width: 600px) {
@@ -45,7 +51,6 @@ const StyledIcon = styled.div`
     /* for desktops */
     svg { width: 80px; height: 80px; }
   }
-
 `;
 
 function contact() {
@@ -54,16 +59,18 @@ function contact() {
       <h2>Get in touch</h2>
       <p>Looking forward to hearing from you soon! Let's connect and discuss how my skills and experience can contribute to your team.</p>
       <ContactIcon>
-        <StyledIcon >
-        <IconGitHub />
+        <StyledIcon href="https://github.com/Firas-Dahmani" target="_blank" >
+          <IconGitHub />
           <p>Gtihub</p>
         </StyledIcon>
-        <StyledIcon >
-        <IconResume />
+
+        <StyledIcon href="#" >
+          <IconResume />
           <p>Resume</p>
         </StyledIcon>
-        <StyledIcon >
-        <IconLinkedin />
+
+        <StyledIcon href="https://www.linkedin.com/in/firas-dahmani/" target="_blank">
+          <IconLinkedin />
           <p>Linkedin</p>
         </StyledIcon>
       </ContactIcon>

@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
-import backgroundImagePhone from '../../assets/images/hero-phone.png';
-import backgroundImageTablet from '../../assets/images/hero-tablet.png';
-import backgroundImageDesktop from '../../assets/images/hero-desktop.png';
+import backgroundImagePhone from '/images/hero-phone.png';
+import backgroundImageTablet from '/images/hero-tablet.png';
+import backgroundImageDesktop from '/images/hero-desktop.png';
 
 const StyleHeroSection = styled.section`
   position: relative;

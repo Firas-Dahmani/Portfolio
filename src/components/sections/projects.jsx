@@ -9,6 +9,12 @@ const StyledProjectSection = styled.section`
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
 `;
 
 const CardStyle = styled.div`
@@ -27,6 +33,12 @@ const CardStyle = styled.div`
     position: absolute;
     width: 100%;
     height: 100%;
+  }
+
+  &:hover {
+    background: linear-gradient(0deg, rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url(${props => props.bgImage});
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .content {
@@ -66,10 +78,10 @@ const CardStyle = styled.div`
 
     .content {
       position: absolute;
-      width: 250px;
-      height: 150px;
-      left: calc(50% - 500px/2 + 200px);
-      top: calc(50% - 200px/2 - 3.5px);
+      width: 300px;
+      height: 140px;
+      left: calc(50% - 300px/2 + 200px);
+      top: calc(50% - 190px/2 - 3.5px);
       background: rgba(115, 147, 77, 0.75);
       border-radius: 16px;
       padding: 29px 30px;
@@ -88,12 +100,14 @@ const CardStyle = styled.div`
 function Projects() {
   const Cards = (
     projects.map((project, index)=> (
-      <CardStyle bgImage={project.imageUrl} key={index}>
-        <div className="content">
-          <h3>{project.title}</h3>
-          <p>{project.description}</p>
-        </div>
-      </CardStyle>
+      <a href={project.url} target="_blank" key={index}>
+        <CardStyle bgImage={project.imageUrl} >
+          <div className="content">
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+          </div>
+        </CardStyle>
+      </a>
     ))
   )
   return (

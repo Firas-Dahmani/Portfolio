@@ -2,11 +2,13 @@
   {
     "title": "Crwn-Clothing",
     "description": "E-commerce web app built with React, Node.js, Firebase, and Redux Toolkit",
-    "imageUrl": "/images/crown-clothing.png"
+    "imageUrl": "/images/crown-clothing.png",
+    "url": "https://mellow-custard-6a021d.netlify.app"
   },
   {
     "title": "NASA-Project",
     "description": "Built the back-end of a React app using Node.js and built some tests with Jest",
-    "imageUrl": "/images/nasa-project.png"
+    "imageUrl": "/images/nasa-project.png",
+    "url": "https://github.com/Firas-Dahmani/NASA_PROJECT"
   }
 ]
