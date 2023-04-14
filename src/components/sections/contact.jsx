@@ -20,16 +20,16 @@ const ContactIcon = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   margin-top: 32px;
-
 `;
 
 const StyledIcon = styled.div`
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 32px;
+  padding: 16px;
 
   svg {
     width: 32px;
