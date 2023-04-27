@@ -42,14 +42,9 @@ const StyledIcon = styled.a`
     opacity: 0.58;
   }
 
-  @media (min-width: 600px) {
-    /* for tablets */
-    svg { width: 65px; height: 65px; }
-  }
-
   @media (min-width: 1024px) {
     /* for desktops */
-    svg { width: 80px; height: 80px; }
+    svg { width: 48px; height: 48px; }
   }
 `;
 
